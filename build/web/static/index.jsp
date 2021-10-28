@@ -19,7 +19,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
 
-        <title>Nhóm 4</title>
+        <title>Group 4</title>
 
         <!-- bootstrap core css -->
         <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.css" />
@@ -40,9 +40,9 @@
             <header class="header_section">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg custom_nav-container ">
-                        <a class="navbar-brand" href="<%=request.getContextPath()%>/trangchu">
+                        <a class="navbar-brand" href="<%=request.getContextPath()%>/home">
                             <span>
-                                Bài tập nhóm 4
+                                Group 4
                             </span>
                         </a>
 
@@ -54,13 +54,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link pl-lg-0" href="<%=request.getContextPath()%>/trangchu">Trang chủ <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link pl-lg-0" href="<%=request.getContextPath()%>/home">Home page <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<%=request.getContextPath()%>/thongtin"> Thông tin nhóm</a>
+                                    <a class="nav-link" href="<%=request.getContextPath()%>/infor">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"> Đồ án cuối kì </a>
+                                    <a class="nav-link" href="#">Final project</a>
                                 </li>
                             </ul>
                         </div>
@@ -78,7 +78,7 @@
                                     <div class="col-md-6">
                                         <div class="detail-box">
                                             <h5>
-                                                Nhóm 4
+                                                Group 4
                                             </h5>
                                             <h1>
                                                 For All Your <br>
@@ -107,7 +107,7 @@
                                     <div class="col-md-6">
                                         <div class="detail-box">
                                             <h5>
-                                                Nhóm 4
+                                                Group 4
                                             </h5>
                                             <h1>
                                                 For All Your <br>
@@ -136,7 +136,7 @@
                                     <div class="col-md-6">
                                         <div class="detail-box">
                                             <h5>
-                                                Nhóm 4
+                                                Group 4
                                             </h5>
                                             <h1>
                                                 For All Your <br>
@@ -183,74 +183,75 @@
                 <div class="container ">
                     <div class="heading_container heading_center">
                         <h2>
-                            Bài tập hàng tuần
+                            Daily exercise
                         </h2>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-md-4 ">
                             <div class="box ">
                                 <div class="img-box">
-                                    <img src="./static/images/cat1.png" alt="">
+                                    <a href="https://survey-4.herokuapp.com/">
+                                        <img src="./static/images/cat1.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        Bài tập 1
+                                        <a href="https://survey-4.herokuapp.com/">Exercise 1</a>
                                     </h5>
-                                    <p>
-                                        Write a simple application with JSP and Servlet in 3 ways:
-                                        using only JSP, only Servlet and combining JSP and Servlet in MVC framework
-                                    </p>
+                                    <a href="https://survey-4.herokuapp.com/">
+                                        <p style="font-size: 20px; color: black">Chapter 6: Create a form for survey using JavaServer pages</p>
+                                    </a>                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 ">
                             <div class="box ">
                                 <div class="img-box">
-                                    <img src="./static/images/cat2.png" alt="">
+                                    <a href="https://emailweb4.herokuapp.com/">
+                                        <img src="./static/images/cat2.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="detail-box">
-                                    <h5>
-                                        Bài tập 2
-                                    </h5>
-                                    <p>
-                                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                        The
-                                        point of using
-                                    </p>
+                                    <a href="https://emailweb4.herokuapp.com/">
+                                        <h5>Exercise 2</h5>
+                                    </a>
+                                    <a href="https://emailweb4.herokuapp.com/">
+                                        <p style="font-size: 20px; color: black">Chapter 8: Create an email list form using Expression language</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 ">
                             <div class="box ">
                                 <div class="img-box">
-                                    <img src="./static/images/cat3.png" alt="">
+                                    <a href="https://downloadweb4.herokuapp.com/">
+                                        <img src="./static/images/cat3.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="detail-box">
-                                    <h5>
-                                        Bài tập 3
-                                    </h5>
-                                    <p>
-                                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                        The
-                                        point of using
-                                    </p>
+                                    <a href="https://downloadweb4.herokuapp.com/">
+                                        <h5>Exercise 3</h5>
+                                    </a>
+                                    <a href="https://downloadweb4.herokuapp.com/">
+                                        <p style="font-size: 20px; color: black">Chapter 9.1: Create a download application using JSTL</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 ">
                             <div class="box ">
                                 <div class="img-box">
-                                    <img src="./static/images/cat4.png" alt="">
+                                    <a href="https://cart-4.herokuapp.com/">
+                                        <img src="./static/images/cat4.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="detail-box">
-                                    <h5>
-                                        Bài tập 4 
-                                    </h5>
-                                    <p>
-                                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                        The
-                                        point of using
-                                    </p>
+                                    <a href="https://cart-4.herokuapp.com/">
+                                        <h5>Exercise 4</h5>
+                                    </a>
+                                    <a href="https://cart-4.herokuapp.com/">
+                                        <p style="font-size: 20px; color: black">Chapter 9.2: Create a cart application using JSTL</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -261,12 +262,10 @@
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        Bài tập 5
+                                        Exercise 5
                                     </h5>
                                     <p>
-                                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                        The
-                                        point of using
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -278,12 +277,10 @@
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        Bài tập 6
+                                        Exercise 6
                                     </h5>
                                     <p>
-                                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                        The
-                                        point of using
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -309,15 +306,15 @@
                         <div class="detail-box">
                             <div class="heading_container">
                                 <h2>
-                                    Đồ án cuối kì
+                                    Final project
                                 </h2>
                             </div>
                             <p>
-                                Đây là bài tập cuối kì môn lập trình web học kì I<br>
-                                Công nghệ sử dụng:<br>
+                                This is our final project for web programing subject in I semester<br>
+                                We using technology for our web:<br>
                                 - Front-end: Html5, CSS3, JavaScript<br>
-                                - Back-end: Java
-                            <h3>Giảng viên hướng dẫn: cô Mai Anh Thơ<br></h3>
+                                - Back-end: JSP, Servlet, JPA
+                            <h3>Instructor: Ms. Mai Anh Tho<br></h3>
                             </p>
                             <a href="">
                                 Read More
@@ -338,24 +335,24 @@
                     <div class="col-md-6 col-lg-6 info-col">
                         <div class="info_detail">
                             <h4>
-                                thông tin về nhóm
+                                About our team
                             </h4>
                             <p>
-                                Tụi mình là nhóm 4, lập trình web học kì 1<br>
-                                Đây là trang web để mô tả thông tin cũng như bài tập của nhóm mình<br>
-                            <p>Giảng viên hướng dẫn: cô Mai Anh Thơ<p>
+                                We are group 4<br>
+                                This is the website to describe the information as well as the exercises of our group<br>
+                            <p>Instructor: Ms. Mai Anh Tho<p>
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6  info-col">
                         <div class="info_contact">
                             <h4>
-                                Liên hệ
+                                Contact
                             </h4>
                             <div class="contact_link_box">
-                                <p>Điện thoại: (+84-028) 905974646 -  344976004 - 945291068</p>
+                                <p>Phone number: (+84-028) 905974646 -  344976004 - 945291068</p>
                                 <p>
-                                    &copy; <span id="displayYear"></span> All Rights Reserved By Nhóm 4 - 
+                                    &copy; <span id="displayYear"></span> All Rights Reserved By Group 4 - 
                                     <a href="https://html.design/">Free Html Templates</a>
                                 </p>
                             </div>

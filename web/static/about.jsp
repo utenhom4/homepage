@@ -19,7 +19,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
 
-        <title>Thông tin</title>
+        <title>Information</title>
 
         <!-- bootstrap core css -->
         <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.css" />
@@ -40,9 +40,9 @@
             <header class="header_section">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg custom_nav-container ">
-                        <a class="navbar-brand" href="<%=request.getContextPath()%>/trangchu">
+                        <a class="navbar-brand" href="<%=request.getContextPath()%>/home">
                             <span>
-                                Bài tập nhóm 4
+                                Group 4
                             </span>
                         </a>
 
@@ -54,13 +54,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link pl-lg-0" href="<%=request.getContextPath()%>/trangchu">Trang chủ <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link pl-lg-0" href="<%=request.getContextPath()%>/home">Home page <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<%=request.getContextPath()%>/thongtin"> Thông tin nhóm</a>
+                                    <a class="nav-link" href="<%=request.getContextPath()%>/infor">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"> Đồ án cuối kì </a>
+                                    <a class="nav-link" href="#">Fianl project</a>
                                 </li>
                             </ul>
                         </div>
@@ -78,9 +78,9 @@
                 <div class="container ">
                     <div class="heading_container heading_center">
                         <h2>
-                            Thông tin
+                            Information
                         </h2>
-                        <p>thành viên trong nhóm 4</p>
+                        <p>Member in group 4</p>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-md-4 ">
@@ -91,8 +91,8 @@
                                         Phạm Văn Đức Tiến <br> 19110024
                                     </h5>
                                     <p>
-                                        Mô tả công việc<br>
-                                        Liên hệ: 0905974646<br>
+                                        Description<br>
+                                        Contact: 0905974646<br>
                                         19110024@student.hcmute.edu.vn
                                     </p>
                                 </div>
@@ -106,8 +106,8 @@
                                         Hoàng Quốc Việt <br> 19110315
                                     </h5>
                                     <p>
-                                        Mô tả công việc<br>
-                                        Liên hệ: 0344976004<br>
+                                        Description<br>
+                                        Contact: 0344976004<br>
                                         19110315@student.hcmute.edu.vn
                                     </p>
                                 </div>
@@ -121,8 +121,8 @@
                                         Nguyễn Đặng Khánh Văn <br> 19110312
                                     </h5>
                                     <p>
-                                        Mô tả công việc<br>
-                                        Liên hệ: 0945291068<br>
+                                        Description<br>
+                                        Contact: 0945291068<br>
                                         19110312@student.hcmute.edu.vn
                                     </p>
                                 </div>
@@ -143,31 +143,30 @@
                     <div class="col-md-6 col-lg-6 info-col">
                         <div class="info_detail">
                             <h4>
-                                thông tin về nhóm
+                                About our team
                             </h4>
                             <p>
-                                Tụi mình là nhóm 4, lập trình web học kì 1<br>
-                                Đây là trang web để mô tả thông tin cũng như bài tập của nhóm mình<br>
-                            <p>Giảng viên hướng dẫn: cô Mai Anh Thơ
-                            <p>
+                                We are group 4<br>
+                                This is the website to describe the information as well as the exercises of our group<br>
+                            <p>Instructor: Ms. Mai Anh Tho<p>
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6  info-col">
                         <div class="info_contact">
                             <h4>
-                                Liên hệ
+                                Contact
                             </h4>
                             <div class="contact_link_box">
-                                <p>Điện thoại: (+84-028) 905974646 - 344976004 - 945291068</p>
+                                <p>Phone number: (+84-028) 905974646 -  344976004 - 945291068</p>
                                 <p>
-                                    &copy; <span id="displayYear"></span> All Rights Reserved By Nhóm 4 -
+                                    &copy; <span id="displayYear"></span> All Rights Reserved By Group 4 - 
                                     <a href="https://html.design/">Free Html Templates</a>
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </section>
 
