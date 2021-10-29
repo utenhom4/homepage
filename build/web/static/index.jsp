@@ -60,7 +60,7 @@
                                     <a class="nav-link" href="<%=request.getContextPath()%>/infor">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Final project</a>
+                                    <a class="nav-link" href="https://restaurant-gr4.herokuapp.com/">Final project</a>
                                 </li>
                             </ul>
                         </div>
@@ -316,7 +316,7 @@
                                 - Back-end: JSP, Servlet, JPA
                             <h3>Instructor: Ms. Mai Anh Tho<br></h3>
                             </p>
-                            <a href="">
+                            <a href="https://restaurant-gr4.herokuapp.com/">
                                 Read More
                             </a>
                         </div>
